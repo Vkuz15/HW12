@@ -2,6 +2,9 @@ public class Book {
    private String bookTitle;
    private int year;
 
+   private Author author;
+
+
    public Book(String bookTitle, int year) {
       this.bookTitle = bookTitle;
       this.year = year;
