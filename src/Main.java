@@ -7,6 +7,12 @@ public class Main {
 
         Author author1 = new Author("Michail", "Bulgakov");
 
+        if (author.equals(author1)) {
+            System.out.println("объекты равны");
+        } else {
+            System.out.println("объекты не равны");
+        }
+
         System.out.println(author);
         System.out.println(author1);
 
