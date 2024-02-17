@@ -1,4 +1,5 @@
 public class Author {
+
     private String name;
     private String surname;
 
@@ -7,11 +8,27 @@ public class Author {
         this.surname = surname;
     }
 
-    public String getName() {
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Author{" +
+                "name=" + name +
+                ", surname=" + surname +
+                '}';
+    }
+
+    public java.lang.String getName() {
         return this.name;
     }
 
-    public String getSurname() {
+    public void setName(java.lang.String name) {
+        name = name;
+    }
+
+    public java.lang.String getSurname() {
         return this.surname;
+    }
+
+    public void setSurname(java.lang.String surname) {
+        surname = surname;
     }
 }
